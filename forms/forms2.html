@@ -1,0 +1,75 @@
+<!--
+Dropdown/Multiselect
+Create a page that contains three dropdown (selects) in one row
+Dropdowns are used by the user to provide the day, month and year of birth
+The page also contains multiselect box
+Multiselect box contains "categories" out of which the user can select several
+-->
+<!DOCTYPE html>
+<head>
+    <title>Dropdown/multiselect</title>
+</head>
+<body>
+    <form action= '#'>
+        <p>Datum rodjenja</p>
+        <select name="datum">
+            <option value="dan" >1</option>
+            <option value="dan" >2</option>
+            <option value="dan" >3</option>
+            <option value="dan" >4</option>
+            <option value="dan" >5</option>
+            <option value="dan" >6</option>
+            <option value="dan" >7</option>
+            <option value="dan" >8</option>
+            <option value="dan" >9</option>
+            <option value="dan" >10</option>
+            <option value="dan" >11</option>
+            <option value="dan" >12</option>
+            <option value="dan" >13</option>
+        </select>
+        <select name="mesec">
+            <option value="mesec">Januar</option>
+            <option value="mesec">Februar</option>
+            <option value="mesec">Mart</option>
+            <option value="mesec">April</option>
+            <option value="mesec">Maj</option>        
+        </select>
+        <select name="godina">
+            <option value="godina">2001</option>
+            <option value="godina">2002</option>
+            <option value="godina">2003</option>
+            <option value="godina">2004</option>
+        </select>
+    </form>
+    <form action="#">
+            <h2>selektujte omiljene cokolade</h2>
+            <select name="cokolade[]" size="4" multiple >
+                <option value="milka">Milka cokolada</option>
+                <option value="nestlle">Nestlee cokolada</option>
+                <option value="snikers">snikers cokolada</option>
+                <option value="mars">Mars cokolada</option>
+            </select>
+    </form>  
+    
+
+<!--
+Reset/Button/Hidden
+Create a form that contains multiple elements (text, textarea, radio)
+At the end of the form, there are two buttons:
+The first one is a reset button used for resetting form
+The second button contains an image and text inside it (it's a submit button
+-->
+<form action="#">
+    <p>Ime i prezime</p>
+    <input type="text">
+    <p>Napisi ukratko o filmu</p>
+    <textarea name="tekst" cols="100" rows="10" placeholder="Unesite ovde text"></textarea>
+    <br>
+    <input type="radio" name="genre" value="akcija"/> Akcija
+    <input type="radio" name="genre" value="Komedija"/> Komedija
+    <input type="radio" name="genre" value="Dokumentarac"/> Dokumentarac
+    <input type="reset" value="Reset">
+    <input type="image" src="https://t3.ftcdn.net/jpg/03/65/02/88/360_F_365028882_mGNXmvPitev7pf0dhb7x017FFnOdpT9S.jpg" width="80" height="80">
+</form>
+</body>
+</html>

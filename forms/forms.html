@@ -1,0 +1,80 @@
+<!--
+-Text/Password Fields
+-Create a page that contains a login form
+-The form should contain username and password fields
+-Add text to indicate which field is intended for what
+-Login form should contain "forgot password" link
+-When the user clicks on the link, they are redirected to a new "Reset password" page
+-Reset page contains:
+-an input text field that user uses to provide an email address
+-"Send" link that redirects the user back to the login form
+
+<html>
+    <head>
+        <title>Forme</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="http//example.com/login.php">
+            <p>
+                Username:
+                <input type="text" name="username"  size="20"   maxlength="25"/>
+
+            </p>
+            <p>
+                Password:
+                <input type="password" name="password" size="20" maxlength="25"/>
+            </p>
+        
+        </form>
+        <a href="resetpass.html">Reset sifre</a>
+    </body>
+</html>
+-->
+
+
+<!--
+  Textarea/Radio/Checkbox
+-Create a page that simulates a school quiz, containing multiple questions:
+-The first question should contain multiple options out of which the student can select only one
+-The second quiz question has multiple options out of which the user can select several
+-The third question should require from user to insert some long text  
+-->
+<html>
+    <head>
+        <title>Forms vezba 2</title>
+    </head>
+    <body>
+        <h1>Kviz</h1>
+        <form action="#">
+            <p>1. Koji je broj deljiv sa 2</p>
+            <input type="radio" name="genre" value="3"/> Broj 3
+            <input type="radio" name="genre" value="5"/> Broj 5
+            <input type="radio" name="genre" value="6"/> Broj 6
+            <input type="radio" name="genre" value="9"/> Broj 9
+        </form>
+        <br>
+        <form action="#">
+            <p>2. Oznaci tri stvari koje imas u ucionici</p>
+           <!-- 
+               <select name="stvrai[]" size="4"    multiple="multiple">
+                <option value="televizor" selected="selected">televizor</option>
+                <option value="sat" selected="selected">Sat</option>
+                <option value="kalendar" selected="selected">Kalendar</option>
+                <option value="jelen" selected="selected">Jelen</option>
+            </select>
+            -->
+            <input type="checkbox" name="tabla[]" value="tabla">Tabla
+            <input type="checkbox" name="skolskaklupa[]" value="skolskaklupa">Skolska klupa
+            <input type="checkbox" name="kreda[]" value="kreda">Kreda
+            <input type="checkbox" name="automobil[]" value="automobil">Automobil
+
+        </form>
+        <br>
+        <form action="#">
+            <p>3. Napisi kratak sastav o kvantnoj fizici</p>
+            <textarea name="tekst" cols="100" rows="10" placeholder="Unesite ovde text"></textarea>
+        
+        </form>
+    </body>
+</html>

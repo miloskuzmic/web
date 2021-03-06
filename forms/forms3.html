@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Forms vezba 3</title>
+</head>
+<!--
+File input/Submit 
+Create a form used for submitting "Then VS Now" dieting/workout images and a description
+The form should contain two file input fields
+Both of the fields are file inputs
+They are used by the user for uploading the pictures of them and showing what they looked like before they started working out, and how they look now
+The page has to have an area where the user can put a picture description
+At the end of the form, there should be a submit button with text "Send" that is used to submit the form
+The form is submitted on page "handle-upload.html" and the user is redirected to it upon pressing the button
+This page should contain just a "Form submitted successfully"! message
+-->    
+<body>
+    <form action="#">
+        <p>Upload your old picture</p>
+        <input type="file" name="user-old-pictures">
+        <br>
+        <textarea name="tekst" cols="50" rows="10" placeholder="Short text abouth pictures"></textarea>
+        <br>
+        
+        <p>Upload your new picture</p>
+        <input type="file" name="user-old-pictures">
+        <br>
+        <textarea name="tekst" cols="50" rows="10" placeholder="Short text abouth pictures"></textarea>
+        <br>
+      <button >
+            <a href="handle-upload.html">Send</a>
+        </button>
+    </form>
+</body>
+</html>
