@@ -1,0 +1,111 @@
+<!--Color Palette Transformation
+Create three paragraphs using “lorem ipsum” text
+Use “DarkTurquoise ” as text color for the first paragraph 
+Transform “DarkTurquoise” color to RGB color palette 
+Use the result of transformation to set the color of the second paragraph
+Transform RGB color palette value to HEX color palette
+Use a HEX value to set the text color of the third paragraph
+
+
+
+Color VS Background Color
+Use the structure created in the previous exercise
+Try to set different combinations of background and text colors on paragraphs
+
+
+
+Opacity VS RGBA
+Use the previously created HTML structure
+Apply 50% opacity to the first element
+Set bg-color with 50% transparency (rgba) on the second element
+Add picture to the div element that has opacity defined
+Add picture to the div element that has rgba defined
+
+
+
+Additional
+Create a table with five columns and three rows
+Each column should have different background color
+Colors of the first two columns should be defined using the following color names:
+AliceBlue
+HotPink
+-->
+<!DOCTYPE html>
+<head>
+    <title>Colors</title>
+    <style>
+        .paragraf{
+            color: darkturquoise;
+            background-color: royalblue;
+            opacity: 0.5;
+        }
+        .paragraf1{
+            color: rgb(0, 206, 209);
+            background-color: rgba(0, 102, 0, 0.5);
+        }
+        .paragraf2 {
+            color: #00ced1;
+            background-color: #660066 ;
+        }
+        .td1 {
+            background-color: aliceblue;
+        }
+        .td2 {
+            background-color: hotpink;
+        }
+        .td3 {
+            background-color: khaki;
+        }
+        .td4 {
+            background-color: lawngreen;
+        }
+        .td5 {
+            background-color: rebeccapurple;
+            color: white;
+            
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="paragraf">
+    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur dapibus justo, nec mollis turpis gravida eu. Mauris egestas libero id tempus tristique. In fringilla diam mauris. Pellentesque vel fermentum nisi, et lacinia velit. Sed interdum orci eu urna lacinia auctor. Vivamus et magna sodales, dignissim orci vestibulum, maximus nisl. Fusce eget fermentum odio. Mauris dapibus tincidunt sapien. Mauris a nunc odio. Suspendisse dignissim hendrerit maximus. Integer et ante neque. Etiam ullamcorper malesuada risus, sit amet semper eros dignissim ut. Donec mattis vehicula libero, at volutpat mi scelerisque feugiat. Donec hendrerit fringilla tortor, quis eleifend risus vulputate nec. Nunc at dolor ut arcu placerat aliquet.</p>
+    <img src="https://play-lh.googleusercontent.com/proxy/2tj1HTTkxfLUCHMYCMY7Ik_u9Dv-ctrQ7tteluo8MkL9bUzSFutbEcvkGroJxU6PTS84IHjfzCYjRsCflXcZ5k_CV2OAD2Al4i_fUCrb6cBVNvtB4TZhu97Z=w720-h405-rw" alt="minions">
+    </div>
+    <div class="paragraf1">
+    <p >Donec consectetur metus vel viverra mollis. Fusce accumsan ex vitae leo varius pretium. Nunc tincidunt tempus rhoncus. Quisque condimentum eu eros id pellentesque. Morbi consectetur urna at ante fermentum pharetra. Nunc porttitor faucibus lorem, et facilisis erat egestas nec. Fusce blandit, neque sit amet convallis iaculis, tellus turpis aliquam turpis, at facilisis velit diam in mauris. Ut imperdiet nibh porta orci gravida aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In et orci et magna laoreet mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum tempor eros, vitae aliquet leo feugiat in. Nunc ac nibh quam. Morbi venenatis ornare placerat. Quisque eros metus, vestibulum sed sagittis a, maximus quis leo. Cras metus quam, vulputate a ipsum ac, luctus fringilla nunc.</p>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71xalT4xgTL._AC_SL1223_.jpg" alt="minions1">
+    </div>
+    <p class="paragraf2">In arcu ipsum, cursus sed velit sit amet, imperdiet porta velit. Ut id elit felis. Vestibulum pretium orci ut viverra fermentum. Aenean rhoncus condimentum arcu ac hendrerit. Morbi varius ultricies nisl in iaculis. Quisque id ornare nunc, a accumsan ligula. Etiam nulla turpis, consequat quis aliquet quis, sagittis id nisi. Donec massa odio, hendrerit non sollicitudin quis, auctor et enim. Donec tristique elementum viverra.</p>
+    <table >
+        <tr>
+            <td class="td1">Ime</td>
+            <td class="td2">Prezime</td>
+            <td class="td3">Tel</td>
+            <td class="td4">Ulica</td>
+            <td class="td5">Grad</td>
+        </tr>
+        <tr>
+            <td class="td1">Pero</td>
+            <td class="td2">Peric</td>
+            <td class="td3">123456</td>
+            <td class="td4">Duz puta bb</td>
+            <td class="td5">Nema na karti</td>
+        </tr>
+        <tr>
+            <td class="td1">Neko</td>
+            <td class="td2">Ime</td>
+            <td class="td3">56789</td>
+            <td class="td4">Niz put 43</td>
+            <td class="td5">Mozda ima na karti</td>
+        </tr>
+    </table>
+</body>
+</html>

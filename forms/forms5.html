@@ -1,0 +1,78 @@
+<!--Creates a form used for catering reservations
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose
+-->
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Labels/Grouping</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal data</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <label for="pnumber">Phone number</label>
+        <input type="text" name="phone">
+    </fieldset>
+    <fieldset>
+        <legend>Location</legend>
+        <lable for="city">City</lable>
+        <input type="text" name="city" >
+        <br>
+        <br>
+        <label for="street">Street</label>
+        <input type="text" name="street">
+        <br>
+        <br>
+        <label for="snumber">Street number</label>
+        <input type="text" name="number">
+    </fieldset>
+    <fieldset>
+        <legend>Event info</legend>
+        <lable for="cevent">Choos event</lable>
+        <select name="events">
+            <option value="birthday">Birthday</option>
+            <option value="weeding" selected >Wedding</option>
+            <option value="company">Company</option>
+        </select>
+        <br>
+        <br>
+        <label for="nofguest">Number of guests</label>
+        <input type="text" name="quests" placeholder="20">
+        
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset"  value="Reset">
+    </form>
+</body>
+</html>
