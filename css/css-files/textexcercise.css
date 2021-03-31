@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'New Tegomin';
+    src: url('./fonts/NewTegomin-Regular.ttf');
+    font-family: 'Train One', cursive;
+    src:  url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+}
+
+.p1{
+   font-family:  'New Tegomin', Arial, Helvetica, sans-serif;
+   
+}
+.p2{
+    font-family: 'Dancing Script', cursive;/* ,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-style: oblique;
+ }
+ .p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .p1 > q {
+    font-family: monospace;
+    color: blue;
+ }
+ .p2 > q {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(235, 213, 23);
+ }
+ .p3 > q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(235, 25, 25);
+ }
+ body{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ /*.p1:first-child{
+     font-family: Arial, Helvetica, sans-serif;
+     
+     font-weight: normal;
+     font-size: larger;
+ }*/
+ .p3 span{
+     font-style: italic;
+     font-weight: 500;
+ }
+
