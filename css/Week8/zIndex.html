@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Z-Index</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        
+        }
+        .red1{
+            background-color: rgb(255, 0, 0);
+            
+          
+
+        }
+        .blue1{
+            background-color: orange;
+            
+           
+            
+        }
+        .green1 {
+            background-color: darkblue;
+            
+           
+        }
+        .red{
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            right: 1px;
+            z-index: 2;
+           
+
+        }
+        .blue{
+            background-color:orange;
+            position: absolute;
+            right: 100px;
+            bottom:-940px;
+            z-index: 1;
+            
+        }
+        .green {
+            background-color: darkblue;
+            position: absolute;
+            right: 200px;
+            bottom:-1050px;
+           
+            
+        }
+        .red2{
+            background-color: rgb(255, 0, 0);
+            position: relative;
+
+        }
+        .blue2{
+            background-color: orange;
+            position: relative;
+            top: -100px;
+            left: 100px;
+            z-index: 1;
+            
+        }
+        .green2 {
+            background-color: darkblue;
+            position: relative;
+            top: -200px;
+            left: 200px;
+            z-index: 2;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="red1"></div>
+    <div class="blue1"></div>
+    <div class="green1"></div>
+    <hr>
+    <div class="red2"></div>
+    <div class="blue2"></div>
+    <div class="green2"></div>  
+     <hr>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="green"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.img1{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+}
+.img2{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.img3{
+    position: absolute;
+    bottom: 10px;
+}
+.button{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border: solid 1px red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}

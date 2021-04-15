@@ -1,0 +1,39 @@
+body{
+    background-color: honeydew;
+}
+.p1 {
+    border: dotted black;
+}
+.p2 {
+    border: dashed red;
+}
+.p3 {
+    border: solid green;
+}
+.p4 {
+    border: 10px double rgb(137, 106, 223);
+}
+.p5 {
+    border: 10px groove rgb(17, 234, 42);
+}
+.p6 {
+    border: ridge 10px red;
+}
+.p7 {
+    border: inset purple 5px;
+}
+.p8 {
+    border: outset peru 5px;
+}
+.p9 {
+    border: none;
+}
+.p10 {
+    border: hidden;
+}
+.p11 {
+    border-top: dotted red;
+    border-bottom: solid blue;
+    border-right: solid blueviolet;
+    border-left: double 10px greenyellow;
+}

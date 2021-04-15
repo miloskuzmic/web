@@ -1,0 +1,70 @@
+table {
+    border: solid black 1px;
+}
+.div1{
+    border: solid black 1px;
+    margin: 0px auto;
+    width: 25%;
+    
+    
+    
+}
+.div2 {
+    background-color: rgba(204, 197, 197, 0.2);
+    width: 80%;
+    margin:  0% auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+input {
+    -webkit-box-shadow: -1px 4px 15px 5px rgba(142,142,142,0.97); 
+    box-shadow: -1px 4px 15px 5px rgba(142,142,142,0.97);
+    border: 1px solid rgba(204,197,197,0.87);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    
+}
+.sub {
+    margin-top: 10%;
+    color: white;
+    background-color: tomato;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 0%;
+    color: rgb(2, 2, 92);
+   
+}
+span {
+    color: darkorange;
+}
+p {
+    color: rgb(2, 2, 92);
+    margin-bottom: 0%;
+    font-weight: 300;
+    font-size: 20px;
+}
+input[type = text]{
+    cursor: crosshair;
+}
+input[type = email]{
+    cursor: all-scroll ;
+}
+input[type = submit]{
+    
+    box-shadow: none;
+    cursor: url('./Webp.net-resizeimage.png'), auto;
+}
+input[type = number]{
+    cursor: copy;
+}
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
