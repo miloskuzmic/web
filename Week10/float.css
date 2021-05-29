@@ -1,0 +1,65 @@
+
+  .glavnastrana{
+    margin: 0px auto;
+    width: 960px;
+    padding: 0px;
+    
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:tomato;
+      width: 960px;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color:orange;
+    }
+    .div1{
+        margin-left: 10px;
+        width: 300px;
+        display: inline-block;
+    }
+.div2{
+    position: relative;
+    top: -320px;
+    background-color: rgb(255, 191, 0);
+    width: 290px;
+    margin-left:40px;
+    display: inline-block;
+    
+    
+}
+.div2 a{
+margin: 0px auto;
+text-decoration: none;
+padding: 1%;
+} 
+.divslika{
+    margin-top: 1px;
+}
+.footer{
+    background-color: rgb(46, 62, 80);
+    height: 50px;
+}
+.footer p {
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 180px;
+
+}

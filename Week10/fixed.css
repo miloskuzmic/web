@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+}
+header{
+    height: 100px;
+       
+}
+img {
+    float: left;
+    margin-right: 10px;
+    
+}
+header section {
+    margin-left: 20px;
+    padding: 0px;
+}
+h1 {
+    font-size: 60px;
+}
+.p1 {
+    float: left;
+}

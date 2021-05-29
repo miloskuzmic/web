@@ -1,0 +1,37 @@
+$color: red;
+$color1: yellow;
+$width:400px;
+$backround: green;
+$center: 0 auto;
+$fontF: justify;
+$fontF1: center;
+@mixin flexDir ($flexD) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexD;
+}
+.container{
+    @include flexDir(column);
+    color: $color;
+    width: $width;
+    margin: $center;
+    background-color: $backround;
+    h1{
+        background-color: $color1;
+        text-align: $fontF1;
+    }
+    table{
+        background-color: rgba(101, 233, 101, 0.747);
+    }
+    
+}
+.title{
+    color: $color1;
+    background-color: $color;
+}
+#footer{
+    color: $color1;
+    background-color: $color;
+    text-align: $fontF;
+}

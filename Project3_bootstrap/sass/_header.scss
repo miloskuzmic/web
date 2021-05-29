@@ -1,0 +1,20 @@
+.header{
+    background-color: $headerAndFooterBackground;
+}
+.navigationBox{
+    .logo{
+        font-family: "Lato-regular";
+    }
+    .linksBox{
+        justify-content: flex-end;
+
+        a{
+            font-family: "Lato-regular"; 
+        }
+    }
+    button{
+        background-color: $greenButton;
+        border: none;
+       
+    }
+}

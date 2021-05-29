@@ -1,0 +1,16 @@
+.paragraf1{
+    border: 3px solid red;
+    font-size: 20px;
+    text-align: center;
+}
+.paragraf2{
+    @extend .paragraf1;
+    border-color: blue ;
+    width: 200px / 300px * 100%;
+}
+.paragraf3{
+    @extend .paragraf1, .paragraf2;
+    border-color: green;
+    width: 150px / 300px * 100%;
+}
+

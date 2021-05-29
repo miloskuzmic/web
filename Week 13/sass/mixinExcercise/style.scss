@@ -1,0 +1,30 @@
+@import './mixin';
+@import './variable';
+@mixin boxShadow {
+    -webkit-box-shadow: 1px 2px 15px 11px #000000; 
+    box-shadow: 1px 2px 15px 11px #000000;
+}
+@mixin textShadow {
+    text-shadow: -11px 2px 4px rgba(206,89,55,0.92);
+}
+.box-shadow {
+    @include boxShadow();
+    background-color: grey;
+    color: white;
+    width: $width;
+    height: $heigh;
+
+}
+.text-shadow{
+    @include textShadow();
+    background-color:yellow ;
+    color: white;
+    font-size: 40px;
+}
+.inporttextshadow{
+    margin-top: 100px;
+    font-size: $fontS;
+}
+.inportboxshadow{
+    background-color: $backroundColor;
+}

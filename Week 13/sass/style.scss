@@ -1,0 +1,25 @@
+$backCol: yellow;
+@import './info';
+@mixin flexDir ($flexD, $colT) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexD;
+    color: $colT;
+}
+header{
+    @include flexDir(row, green);
+    background: $backCol;
+    button{
+        color: olive;
+        &:hover{
+            background: yellow;
+        }
+    }
+    border: 3px solid green;
+    width: 500px/1222px*100%;
+}
+.info{
+    border: 3px solid yellow;
+}
+

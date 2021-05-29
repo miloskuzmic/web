@@ -1,0 +1,16 @@
+.paragraf1, .paragraf2, .paragraf3 {
+  border: 3px solid red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paragraf2, .paragraf3 {
+  border-color: blue;
+  width: 66.66667%;
+}
+
+.paragraf3 {
+  border-color: green;
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

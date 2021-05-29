@@ -1,0 +1,13 @@
+@mixin boxShadows {
+    -webkit-box-shadow: -24px -11px 36px 39px #FF277A; 
+    box-shadow: -24px -11px 36px 39px #FF277A;
+}
+@mixin textShadows {
+    text-shadow: -33px -31px 2px #CE0711;
+}
+.inportboxshadow{
+    @include boxShadows();
+}
+.inporttextshadow{
+    @include textShadows();
+}
