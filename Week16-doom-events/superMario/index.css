@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 100%;
+    min-height: 500px;
+    background-image: url("./img/bg.jpg");
+    background-repeat: repeat-x;
+    background-position: 0 ;
+    
+
+
+}
+    
+.mario-still{
+    position: fixed;
+    display: block;
+    height: 60px;
+    width: 60px;
+    top: 350px;
+    left: 50%;
+}
+.img1{
+    position: fixed;
+    display: none;
+    height: 60px;
+    width: 60px;
+    top: 350px;
+    left: 50%;
+}

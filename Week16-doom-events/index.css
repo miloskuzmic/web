@@ -1,0 +1,27 @@
+.div1 {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #2D3E4F ;
+    display: flex;
+    align-content: center;
+    
+    flex-direction: column;
+}
+button {
+    color: white;
+    background-color: #C1392B;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: center;
+
+}
+.second-color{
+    background-color: #F5F5F5;
+}
+.button1 {
+    width: 70px;
+    background-color: #FFBF28;
+}
