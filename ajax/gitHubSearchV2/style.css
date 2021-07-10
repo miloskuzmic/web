@@ -1,0 +1,16 @@
+body {
+    padding-top: 50px;
+}
+
+.alert {
+    display: none;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.card { 
+    margin: 10px;
+    width: 18 rem;
+}

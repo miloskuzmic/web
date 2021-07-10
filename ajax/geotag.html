@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo tag</title>
+</head>
+<body>
+    <button onclick="getLocation()">get location</button>
+    <p id="country"></p>
+
+    <script>
+        var p = document.querySelector('#country');
+        function getLocation() {
+            var xhttp= new XMLHttpRequest()
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            }
+            xhttp.open('GET',"http://www.geoplugin.net/xml.gp?ip=178.222.158.120", true)
+            xhttp.send();
+        }
+
+        function myFunction(xml) {
+        
+            var xmlDoc = xml.responseXML;
+            
+            var x = xmlDoc.querySelector('geoplugin_countryName').textContent;
+            console.log(x);
+            p.textContent = x;
+
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+header {
+    position: relative;
+    width: 100%;
+    background-color: #343A40;
+
+}
+#searchList {
+    position: absolute;
+    top: 50px;
+    background-color:#f0f0f0;
+    list-style: none;
+    padding-left: 0; 
+    z-index: 1;
+    
+}
+#searchList li {
+    border-bottom: 1px solid black;
+    text-align: left;
+    text-overflow: clip;
+    
+}
+#searchList li:hover {
+    cursor: pointer;
+    background-color: white;
+}
+.card{
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+}
+.errormessage{
+    text-align: center;
+    display: block;
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+.seasons{
+    font-size:20px;
+}
+.cast{
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+    
+}
+.heading {
+    margin-top: 20px;
+    font-size: 50px;
+}
+.cardHolder {
+    display: flex;
+    justify-content: center;
+}
+a {
+    font-size: 40px;
+    font-weight: bold;
+}
+nav,footer{
+    background-color: #343A40;
+}
+.nametext {
+    display: block;
+   
+    font-style: italic;
+}
+h5 {
+    color: blue;
+}
